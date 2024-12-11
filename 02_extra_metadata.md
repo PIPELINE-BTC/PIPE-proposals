@@ -19,7 +19,7 @@ To optimize transaction costs and minimize size, a single-letter tag (`E`) will 
 ### Metadata Tagging for Actions:
 - For each action (deployment, minting, transfer), a new optional metadata field will be introduced.
 - The presence of metadata will be indicated by a single-letter tag (`E`) appended to the action data.
-- The metadata itself will be a single, concatenated string encoded in a compact format (e.g., hexadecimal or Base64).
+- The metadata itself will be a single, concatenated string encoded in a compact format (e.g., hexadecimal).
 
 ### Smart Contract Compatibility:
 - The metadata string can include a key or reference pointing to an identifier in the smart contract.
